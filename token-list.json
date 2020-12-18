@@ -1,6 +1,6 @@
 {
   "name": "Pact",
-  "logoURI": "https://www.xxxxxxxxxxxx/logo.png",
+  "logoURI": "https://github.com/SDIpay/Polkadot-Pact/blob/main/YPactlogo1%203.png?raw=true",
   "keywords": [      
       "Pact",
       "defi"
@@ -13,7 +13,7 @@
       "name": "Polkadot Pact",
       "symbol": "PACT",
       "decimals": 18,
-      "logoURI": "https://www.xxxxxxxxxxxx/logo.png"
+      "logoURI": "https://github.com/SDIpay/Polkadot-Pact/blob/main/YPactlogo1%203.png?raw=true"
       }
     ],
     "version": {
