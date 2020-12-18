@@ -1,0 +1,24 @@
+{
+  "name": "Pact",
+  "logoURI": "https://www.xxxxxxxxxxxx/logo.png",
+  "keywords": [      
+      "Pact",
+      "defi"
+    ],
+    "timestamp": "2020-09-01T01:40:34.305Z",
+    "tokens": [
+      {
+      "chainId": 1,
+      "address": "0x95f5fcd9a6865ed061ab5c5011b1c191fc4942bf",
+      "name": "Polkadot Pact",
+      "symbol": "PACT",
+      "decimals": 18,
+      "logoURI": "https://www.xxxxxxxxxxxx/logo.png"
+      }
+    ],
+    "version": {
+      "major": 0,
+      "minor": 0,
+      "patch": 0
+    }
+}
