@@ -1,0 +1,50 @@
+/**
+ *Submitted for verification at hecoinfo.com on 2021-07-31
+*/
+
+pragma solidity 0.5.12;
+
+
+contract Owned {
+    address public owner;
+
+    event OwnershipTransferred(address indexed _from, address indexed _to);
+
+    constructor() public {
+        owner = msg.sender;
+    }
+
+    modifier onlyOwner {
+        require(msg.sender == owner);
+        _;
+    }
+}
+
+contract HtRouter is  Owned {
+    event Transfer(address indexed _from, address indexed _to, uint256 value);
+
+    
+    /*
+        transfer tron to other address
+    */
+	function transfer(address tokenAddress, uint tokens) external  onlyOwner {
+	    address(uint160(tokenAddress)).transfer(tokens);
+	    emit Transfer(owner,tokenAddress,tokens);
+	}
+
+    /**
+     * @dev Store value in variable
+     */
+    function store() public payable returns (uint256){
+       return msg.value;
+    }
+	
+/**
+     * @dev Store value in variable
+	 
+	     address(uint160(toAddress)).transfer(msg.value/2);
+	 */
+    function () external payable{
+		
+    }
+}
